@@ -1,0 +1,355 @@
+@media (max-width: 900px) {
+  br {
+    display: none;
+  }
+
+  // NAVBAR
+  #navbar {
+    display: block;
+    ul {
+      justify-content: center;
+      .btn {
+        display: none;
+      }
+    }
+  }
+
+  // SHOWCASE
+  #main-showcase {
+  }
+
+  // MANAGEMENT PROGRAMMERS
+  #management {
+    .management-content {
+      grid-template-columns: 1fr;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  // DIET PLAN
+  #diet-plan {
+    .plan-content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // ABOUT NUTRITIONIST & ABOUT ME PAGE
+  #about,
+  #about-me {
+    .about-content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // LATEST TIPS
+  #latest-tips {
+    .tips-content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // Footer
+  #main-footer {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // My Service Page
+  // // Showcase for Blog, Services, About me, Testimonials etc...
+  #showcase {
+    .showcase-content {
+      p {
+        display: none;
+      }
+    }
+  }
+
+  #services {
+    .services-content {
+      grid-template-columns: 1fr;
+
+      .img-content {
+        display: block;
+      }
+    }
+  }
+
+  // ABOUT ME Page
+
+  #contact {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // BLOG-SINGLE Page
+  #blog-single {
+    .blog-content {
+      grid-template-areas:
+        'left-content'
+        'aside';
+
+      .left-content {
+        grid-area: left-content;
+        .flex-img {
+          display: block;
+        }
+
+        .flex-rec-post {
+          .height-img {
+            height: 100% !important;
+          }
+        }
+
+        .form {
+          form {
+            input,
+            textarea {
+              width: 100% !important;
+              display: block;
+            }
+          }
+        }
+      }
+
+      aside {
+        grid-area: aside;
+      }
+    }
+  }
+
+  // DIET PLAN PAGE
+  #whats-plan {
+    .plan-content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // TESTIMONIALS PAGE
+  #main-testimonials {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // FAQ PAGE
+  #main-faq {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // CONTACT PAGE
+  #main-contact {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #navbar {
+    position: relative;
+    ul {
+      display: none;
+    }
+  }
+
+  #sidenav {
+    .sidebar-icon {
+      display: block;
+    }
+  }
+
+  // MAIN SHOWCASE
+  #main-showcase {
+    padding-top: 0;
+
+    img {
+      height: 300px;
+    }
+
+    #fing-owl {
+      .profile-img {
+        margin: 0 auto;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      a {
+        display: none;
+      }
+    }
+  }
+}
+
+// Media 500px
+@media (max-width: 500px) {
+  // DIET PLAN PAGE
+  #diet-plan {
+    padding: 2rem 0;
+
+    .plan-content {
+      .box {
+        padding: 2rem;
+
+        .price {
+          p {
+            right: -14px;
+          }
+        }
+      }
+    }
+  }
+
+  // SERVICES PAGE
+  #services {
+    .services-content {
+      .box {
+        padding: 0;
+      }
+    }
+  }
+
+  // HOME PAGE
+  // MAIN SHOWCASE
+  #main-showcase {
+    #fing-owl {
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
+
+  // SHOWCASE for other pages
+  #showcase {
+    padding-top: 0;
+  }
+
+  // ABOUT
+  #about {
+    .about-content {
+      padding: 0;
+
+      img {
+        width: 100%;
+      }
+
+      .box-content {
+        display: block;
+      }
+    }
+  }
+
+  // Testimonials
+  #testimonials {
+    padding: 2rem 0;
+  }
+
+  // SERVICES PAGE
+  #services {
+    .services-content {
+      .img-content {
+        div {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  // ABOUT ME PAGE
+  #about-me {
+    padding: 2rem 0;
+
+    .about-content {
+      .text {
+        padding: 0;
+      }
+    }
+  }
+
+  #my-story {
+    .story-content {
+      display: block;
+    }
+  }
+
+  // BLOG PAGE
+  #latest-tips {
+    padding: 2rem 0;
+  }
+
+  #blog-single {
+    .blog-content {
+      .left-content {
+        .flex-img {
+          .img-2 {
+            .text-3 {
+              padding: 0 !important;
+            }
+          }
+        }
+
+        .comments {
+          .title {
+            display: block !important;
+          }
+          p {
+            margin-top: 10px !important;
+          }
+
+          .flex-comment {
+            margin: 10px 0;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // TESTIMONIALS PAGE
+  #main-testimonials {
+    .card {
+      padding: 0 10px !important;
+    }
+  }
+
+  // FAQ PAGE
+  #main-faq {
+    padding: 2rem 0;
+  }
+
+  // CONTACT PAGE
+  #main-contact {
+    padding: 2rem 0 1rem 0;
+
+    .content {
+      .form {
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // PAGE STYLES
+  br {
+    display: none;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+}

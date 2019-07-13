@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/style.min.css">
+  <title>Jessica - Nutritionist | Testimonials</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <img src="images/logo.png" alt="" class="logo">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">My service</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="blog.html" class="dropdown-link"> Blog
+          <i class="fas fa-angle-down"></i>
+        </a>
+        <ul>
+          <li><a href="blog.html">Blog Default</a></li>
+          <li><a href="blog.html">Blog Single</a></i>
+        </ul>
+      </li>
+      <li><a href="#" class="dropdown-link"> Features
+          <i class="fas fa-angle-down"></i>
+        </a>
+        <ul>
+          <li><a href="diet-plan.html">Diet Plan</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Styleguide</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact us</a></li>
+      <a href="#" class="btn btn-grey">Get started</a>
+    </ul>
+  </nav>
+
+  <!-- Sidenav -->
+  <div id="sidenav">
+    <div class="icon" onclick="openNav()">
+      <p>Menu</p>
+
+    </div>
+    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&#9776;</a>
+
+    <div id="mySidenav" class="sidenav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">My service</a></li>
+        <li><a href="about.html">About me</a></li>
+        <span onclick="openList()" class="closeplus">+</span>
+        <li onclick="closeList()">
+          <a href="javascript:void(0)"> Blog
+            <i class="fas fa-angle-down"></i>
+          </a>
+
+          <ul class="openlist">
+            <li><a href="blog.html">Blog Default</a></li>
+            <li class="border-none"><a href="blog-single.html">Blog Single</a></i>
+          </ul>
+        </li>
+
+        <span onclick="openList2()" class="closeplus">+</span>
+        <li onclick="closeList2()"><a href="javascript:void(0)"> Features
+            <i class="fas fa-angle-down"></i>
+          </a>
+          <ul class="openlist2">
+            <li><a href="diet-plan.html">Diet Plan</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li class="border-none"><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="border-none"><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Header: Showcase -->
+  <section id="showcase">
+    <div class="container">
+      <div class="showcase-content">
+        <div class="box">
+          <h2>Testimonials</h2>
+          <span>
+            <a href="index.html">Home</a> /
+            Testimonials
+          </span>
+        </div>
+        <div class="box">
+          <p><em>“Take a look at the outstanding patients testimonials from jessica barbar<br> nutrition”</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section: Testimonials -->
+  <section id="main-testimonials" class="py-4">
+    <div class="container">
+      <div class="content">
+        <!-- 1 -->
+        <div class="box">
+          <div class="card">
+            <div class="stars">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+            </div>
+            <div class="text-content">
+              <h3>Help for a better food & body fit</h3>
+              <p>“I’m very grateful. Her supportive manner has made this task easy. A couple more kilos and I’ll be
+                fitting
+                into my wedding dress, She made me feel confident in her ability to help with my specific health
+                concerns.
+                She was very organized in her communication with me.”</p>
+              <span class="author">- Lebron James</span>
+            </div>
+          </div>
+
+        </div>
+        <!-- 2 -->
+        <div class="box">
+          <div class="card">
+            <div class="stars">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star-half"></i></span>
+            </div>
+            <div class="text-content">
+              <h3>How Tracy lost 25 lbs & kept it off!</h3>
+              <p>"Thank you so much for taking the time out of your busy schedule to participate in the Health & Benefit
+                Fair...My experience with jessica has been amazing. Her advice, input and overall support has allowed me
+                to pay closer attention to my health and nutrition."</p>
+              <span class="author">- Al Pachino</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3 -->
+        <div class="box">
+          <div class="card">
+            <div class="stars">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star-half"></i></span>
+            </div>
+            <div class="text-content">
+              <h3>Help for emotional binge eating</h3>
+              <p>“I’m very grateful. Her supportive manner has made this task easy. A couple more kilos and I’ll be
+                fitting into my wedding dress, She made me feel confident in her ability to help with my specific health
+                concerns. She was very organized in her communication with me.”
+              </p>
+              <span class="author">- Mark Wahlberg</span>
+            </div>
+          </div>
+
+        </div>
+        <!-- 4 -->
+        <div class="box">
+          <div class="card">
+            <div class="stars">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star-half"></i></span>
+            </div>
+            <div class="text-content">
+              <h3>Help for a better food & body fit</h3>
+              <p>“I’m very grateful. Her supportive manner has made this task easy. A couple more kilos and I’ll be
+                fitting
+                into my wedding dress, She made me feel confident in her ability to help with my specific health
+                concerns.
+                She was very organized in her communication with me.”</p>
+              <span class="author">- Dwayne "Rock" Johnson</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="info">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              2177 Shearwood Forest , NH 03801
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              +180-123-4567
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              info@dietcoach.com
+            </li>
+          </ul>
+          <div class="social-icons">
+            <ul>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-google-plus"></i></li>
+              <li><i class="fab fa-pinterest"></i></li>
+              <li><i class="fab fa-linkedin"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">service</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="#">Diet plans</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="input-field">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="email">
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Phone">
+            </div>
+            <div class="input-field">
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="subfooter text-center mt-4 mb-2">
+        <p>
+          © 2019 - The Nutrition Diet Coach. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+// Margin & Padding
+$spaceamounts: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamounts {
+  // All around margin
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+
+  // Bottom margin
+  .mb-#{$space} {
+    margin-bottom: #{$space}rem;
+  }
+
+  // Top margin
+  .mt-#{$space} {
+    margin-top: #{$space}rem !important;
+  }
+
+  // Right margin
+  .mr-#{$space} {
+    margin-right: #{$space}rem;
+  }
+
+  // Left margin
+  .ml-#{$space} {
+    margin-left: #{$space}rem;
+  }
+
+  // Vertical margin
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  // All around padding
+  .p-#{$space} {
+    padding: #{$space}rem !important;
+  }
+
+  // Vertical padding
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
+  // Padding right
+  .pr-#{$space} {
+    padding-right: #{$space}rem;
+  }
+}
+
+// Colors
+$font-color: #525652;
+$bg-light: #f9f9f9;
+$bg-grey: #f2f2f2;
+$heading-color: #181c18;
+$green-color: #52c75a;
+$white: #fff;
+$yellow: #f9f511;
+$light-font: #abafab;
+
+.text {
+  &-primary {
+    color: #3b5997;
+  }
+
+  &-danger {
+    color: #d64937;
+  }
+
+  &-success {
+    color: #52c75a;
+  }
+
+  &-info {
+    color: #00aced;
+  }
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.fluid-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  background: $bg-light;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600px;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in;
+  color: #555555;
+
+  &.btn-grey {
+    background: transparent;
+    border: 2px solid #555;
+
+    &:hover {
+      color: #fff;
+      background-color: #555;
+    }
+  }
+
+  &.btn-success {
+    color: $green-color;
+    background: transparent;
+    border: 2px solid $green-color;
+
+    &:hover {
+      color: #fff;
+      background-color: $green-color;
+    }
+  }
+
+  &.btn-large {
+    padding: 0.9rem 2rem;
+    font-size: 15px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-title {
+  margin: 1rem 1rem 3rem 1rem;
+  text-align: center;
+}
+
+.link {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.divider {
+  border-bottom: 1px solid #e2e2e2;
+  height: 1px;
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: 1px solid #ededed;
+  padding: 25px;
+  background: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+.bg-grey {
+  background: $bg-grey;
+}
+
+.bg-light {
+  background: $bg-light;
+}
+
+.border-none {
+  border: none !important;
+}
