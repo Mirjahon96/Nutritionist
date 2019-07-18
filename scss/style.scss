@@ -197,7 +197,7 @@ ol {
 
 // Showcase
 #main-showcase {
-  // padding-top: 105px;
+  // padding-top: 105px;`
   background-size: cover;
   background-position: center;
 
@@ -1263,6 +1263,10 @@ ol {
 
           .image-box2 {
             @include animation-img;
+
+            i {
+              font-size: 20px;
+            }
 
             img {
               width: initial;
